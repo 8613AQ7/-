@@ -1,4 +1,4 @@
-var SVG = require('./svg.min.js')
+var SVG = require('svg.min.js')
 var fs = require('fs')
 
 var dataPath = process.argv.splice(2)[0];	//由命令行(python)传入svg文件路径
