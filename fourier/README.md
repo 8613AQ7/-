@@ -5,7 +5,7 @@
 4 python计算傅里叶级数  
 5 python绘制gif并保存  
 (6 删除本地ft数据)    
-使用：
+使用：  
 1 安装python(依赖numpy matplotlib)  
 2 安装node.js(环境变量)  
 3 获得含path的svg文件    
