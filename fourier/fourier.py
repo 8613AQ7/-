@@ -143,13 +143,16 @@ class Animate:  #动画效果
 if __name__ == '__main__':
     svgPath = 'data.svg'
     os.system('node svgToft.js' + ' ' + svgPath)    #利用js处理svg数据
-    readData('ft.txt')  #此处文件名应与js保存的文件吻合
+    ftPath = 'ft.txt'
+    readData(ftPath)  #此处文件名应与js保存的文件吻合
     funclist = [Fn(0)]
     for num in range(1,Fn.N // 2 + 1):  #N个箭头以顺逆交替且转速变快的顺序绘制
         funclist.append(Fn(num))
         if Fn.N%2 or num < Fn.N//2:
             funclist.append(Fn(-num))
     funclist = compute(funclist)
+
+    os.system('del' + ' ' + ftPath) #在readData后删会出现问题
 
     plt.style.use('dark_background')
     model = Animate(funclist)
