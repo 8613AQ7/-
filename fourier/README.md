@@ -6,6 +6,14 @@
 5 python绘制gif并保存  
 (6 删除本地ft数据)   
  
+
+细节：  
+用svgdom及其附属模块(node_modules)解决svg.js中window的问题 使其可以在node中运行      
+svg.js中增加import及export部分(虽然语法不是这样)    
+ft.py 以cmd命令依赖node执行svgToft.js 得到ft.txt (单独运行ft.py可直接查看解析后的图像)  
+fourier.py import ft时会自动执行读取信息的部分 由此才能定义f(t) （单独运行fourier.py可查看动画）    
+main.py 调用fourier.py 命令行方式执行    
+
 使用：  
 1 安装python(依赖numpy matplotlib)  
 2 安装node.js(环境变量)  
