@@ -1,3 +1,5 @@
+# https://www.bilibili.com/video/av62763042?from=search&seid=9940687363140161930
+# http://www.jezzamon.com/fourier/index.html  
 实现思路：  
 1 用网站https://convertio.co/zh/jpg-svg/ 或软件 PS AI 获取svg （path）   
 2 js解析path为坐标随时间的变化 保存为txt    
