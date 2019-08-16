@@ -39,5 +39,10 @@ python main.py data.svg animation.gif
 * png/jpg等转换svg方法  ai有些复杂=-=   
 * python直接读取js中的ft(execjs)会因为require而出问题 解决：用os.system调用node.js      
 * 如果无法调用外部包svg.js 无法解析svg数据 解决：无奈破坏别人写好的代码=-=       
-* 用python手动解析svg数据  不会       
+* 用python手动解析svg数据  不会  
+* svg中含有多个path     
 
+##可行改进
+* tqdm增加进度条
+* js处理所有path
+* 用python图形处理提取图像轮廓 提交给网站获取svg 一条龙
