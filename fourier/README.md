@@ -42,7 +42,7 @@ python main.py data.svg animation.gif
 * 用python手动解析svg数据  不会  
 * svg中含有多个path     
 
-##可行改进
+## 可行改进
 * tqdm增加进度条
 * js处理所有path
 * 用python图形处理提取图像轮廓 提交给网站获取svg 一条龙
